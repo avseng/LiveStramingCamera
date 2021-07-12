@@ -20,10 +20,10 @@ Wfi Settings for Raspbian OS</br></br>
 
 File Name: wpa+supplicant.conf<br/>
 Contents:<br/>
-country=CH<br/>
- ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev<br/>
- network={<br/>
-      ssid="YOUR_NETWORK_NAME"<br/>
-      psk="YOUR_PASSWORD"<br/>
-      key_mgmt=WPA-PSK<br/>
- }
+&nbsp;&nbsp;country=CH<br/>
+&nbsp;&nbsp;ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev<br/>
+&nbsp;&nbsp;network={<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ssid="YOUR_NETWORK_NAME"<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;psk="YOUR_PASSWORD"<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;key_mgmt=WPA-PSK<br/>
+&nbsp;&nbsp;}
