@@ -18,8 +18,8 @@ sudo apt install remoteit<br/>
 
 ### Wfi Settings for Raspbian OS</br>
 ------------------------------
-File Name: wpa_supplicant.conf<br/>
-Contents:<br/>
+**File Name:** wpa_supplicant.conf<br/>
+**Contents:**<br/>
 &nbsp;&nbsp;country=CH<br/>
 &nbsp;&nbsp;ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev<br/>
 &nbsp;&nbsp;network={<br/>
