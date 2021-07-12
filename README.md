@@ -20,7 +20,7 @@ sudo apt install remoteit<br/>
 ------------------------------
 **File Name:** wpa_supplicant.conf<br/>
 **Contents:**<br/>
-&nbsp;&nbsp;country=CH<br/>
+&nbsp;&nbsp;country="YOUR COUNTRY CODE"<br/>
 &nbsp;&nbsp;ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev<br/>
 &nbsp;&nbsp;network={<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ssid="YOUR_NETWORK_NAME"<br/>
