@@ -26,8 +26,8 @@ sudo apt install remoteit<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ssid="YOUR_NETWORK_NAME"<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;psk="YOUR_PASSWORD"<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;key_mgmt=WPA-PSK<br/>
-&nbsp;&nbsp;}
-</br></br>
+&nbsp;&nbsp;}</br></br>
+
 Known Issues</br>
 --------------------
 if you face any issue while installing library like python3-opencv or flask,</br>
