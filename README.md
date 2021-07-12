@@ -14,3 +14,16 @@ echo Y | sudo apt-get install python3-opencv<br/>
 echo Y | sudo pip3 install flask<br/><br/>
 sudo apt install remoteit<br/>
 
+
+
+Wfi Settings for Raspbian OS</br></br>
+
+File Name: wpa+supplicant.conf
+Contents:
+country=CH<br/>
+ ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev<br/>
+ network={<br/>
+      ssid="YOUR_NETWORK_NAME"<br/>
+      psk="YOUR_PASSWORD"<br/>
+      key_mgmt=WPA-PSK<br/>
+ }
