@@ -1,8 +1,8 @@
 # LiveStramingCamera
 DIY live streaming camera using raspberry pi, opencv, flask and remote.it</br>
 
-### Essential libs<br/>
------------------------------------------------------
+### Essential Libraries to install<br/>
+---------------------------
 echo Y |sudo apt-get install libopenjp2-7-dev<br/>
 echo Y | sudo apt-get install libhdf5-dev<br/>
 echo Y |sudo apt-get install libqtgui4 libqtwebkit4 libqt4-test<br/>
@@ -17,7 +17,7 @@ sudo apt install remoteit<br/>
 
 
 ### Wfi Settings for Raspbian OS</br>
-----------------------------------------------------
+------------------------------
 File Name: wpa_supplicant.conf<br/>
 Contents:<br/>
 &nbsp;&nbsp;country=CH<br/>
