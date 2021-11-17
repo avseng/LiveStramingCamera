@@ -1,11 +1,11 @@
-# LiveStramingCamera
-DIY live streaming camera using raspberry pi, opencv, flask and remote.it</br>
+# LiveStreamingCamera
+DIY live streaming camera using Raspberry Pi, OpenCV, Flask and remote.it</br>
 
 ### Essential Libraries to install<br/>
 ---------------------------
-echo Y |sudo apt-get install libopenjp2-7-dev<br/>
+echo Y | sudo apt-get install libopenjp2-7-dev<br/>
 echo Y | sudo apt-get install libhdf5-dev<br/>
-echo Y |sudo apt-get install libqtgui4 libqtwebkit4 libqt4-test<br/>
+echo Y | sudo apt-get install libqtgui4 libqtwebkit4 libqt4-test<br/>
 echo Y | sudo apt-get install libatlas-base-dev<br/>
 echo Y | sudo apt-get install libjasper-dev<br/>
 echo Y | sudo apt-get install python3-pip<br/>
@@ -16,7 +16,7 @@ sudo apt install remoteit<br/>
 
 
 
-### Wfi Settings for Raspbian OS</br>
+### WiFi Settings for Raspbian OS</br>
 ------------------------------
 **File Name:** wpa_supplicant.conf<br/>
 **Contents:**<br/>
@@ -30,5 +30,5 @@ sudo apt install remoteit<br/>
 
 Known Issues</br>
 --------------------
-if you face any issue while installing library like python3-opencv or flask,</br>
+if you face any issue while installing a library like python3-opencv or flask,</br>
 then run the "sudo apt-get update --fix-missing" command first.
