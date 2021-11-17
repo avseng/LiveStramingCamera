@@ -1,4 +1,4 @@
-# LiveStramingCamera
+# LiveStreamingCamera
 DIY live streaming camera using Raspberry Pi, OpenCV, Flask and remote.it</br>
 
 ### Essential Libraries to install<br/>
