@@ -3,7 +3,7 @@ import numpy
 from flask import Flask, render_template, Response, stream_with_context, request
 
 video = cv2.VideoCapture(0)
-app = Flask('__name__')
+app = Flask(__name__)
 
 
 def video_stream():
@@ -14,7 +14,7 @@ def video_stream():
         else:
             ret, buffer = cv2.imencode('.jpeg',frame)
             frame = buffer.tobytes()
-            yield (b' --frame\r\n' b'Content-type: imgae/jpeg\r\n\r\n' + frame +b'\r\n')
+            yield (b' --frame\r\n' b'Content-type: image/jpeg\r\n\r\n' + frame +b'\r\n')
 
 
 @app.route('/camera')
